@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
     nm = nmap.PortScanner()
 
-    # Argument options \w+:\w+:\w+:\w+:\w+:\w+
+    # Argument options
     parser = argparse.ArgumentParser(description='Enter the information necessary to scan for a certain MAC')
     parser.add_argument('-m', '--mac', type=str, help='Add a custom MAC address instead of scanning the network to find one. ex: XX:XX:XX:XX:XX:XX')
     parser.add_argument('-s', '--sleep', type=int, help='Enter the amount of time you wish to sleep in between scans. Time used is in seconds. Default=60')
