@@ -7,7 +7,8 @@ Scans a network for specified MAC Address. Allows you to keep it running and ins
 
 mac_scanner.py requires python-nmap, requests, and argparse to run. This can be done by simply cloning the repository and using pip to install the requirements.
 
-```sh
+```install
+$ git clone https://github.com/epthewizard/MAC-Scanner.git
 $ cd MAC-Scanner
 $ python3 -m venv venv
 $ pip3 install -r requirements.txt
