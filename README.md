@@ -5,12 +5,13 @@ Scans a network for specified MAC Address. Allows you to keep it running and ins
 
 ### Installation
 
-mac_scanner.py requires python-nmap, requests, and argparse to run. This can be done by simply cloning the repository and using pip to install the requirements.
+Make sure that you have nmap installed with `nmap --version`. If not, you can install it on Debian distros with `apt install nmap`. Mac_scanner.py also requires python-nmap, requests, and argparse to run. This can be done by simply cloning the repository and using pip to install the requirements:
 
 ```install
 $ git clone https://github.com/epthewizard/MAC-Scanner.git
 $ cd MAC-Scanner
 $ python3 -m venv venv
+$ source venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
