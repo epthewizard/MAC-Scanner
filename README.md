@@ -1,7 +1,7 @@
 ![Banner](https://document-export.canva.com/Gu4fs/DAEKnWGu4fs/1/preview/hVgYEKWUR9jLMIsQfx2oYw-0001-12067643902.png)
 
 # MAC-Scanner
-Scans a network for specified MAC Address. Allows you to keep it running and insert a Telegram bot token + chat ID to sent remote notifications. Useful if you are trying to see if a person/MAC is on your home/local network while away. 
+Scans a network for specified MAC Address. Allows you to keep it running and insert a Telegram bot token + chat ID to send remote notifications. Useful if you are trying to see if a person/MAC is on your home/local network while away. 
 
 ### Installation
 
